@@ -1,0 +1,38 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    println("Hello, world!!!") 
+    //Variaveis 
+    //
+    //var- uma variavel mutável-seu valor pode ser alterado
+    //val- não mutavel- não é possivel alterar seu valor
+    //
+    //Tipo de variaveis 
+    //
+    //BooLean- verdadeiro ou falso ex: true in false 
+    //String- qualquer texto de qualquer tamanho dentro de ""--> ex:"pizza"
+    //Char- Apenas um caracter de '' (e dentro delas so podemos colocar um caracteres)--> ex:'5'
+    //Int- Numeros inteiros 
+    //Double - numeros decimais (de forma arredondado)--> ex:71.23
+    //Long- numeros reais (de foema longa)--> ex;60000000000000000000000
+    //Float- numeros decimais (de forma definitiva)--> ex:71.52546987236568
+    //
+    //Estrutura de uma variavel 
+    //
+    //Var- nomeDela = "Valor"
+    //Var nomeDela: String 
+    //
+    
+   var tartaruga: Int
+    tartaruga = 1
+    
+    //Concatenação
+   var messiGoldenBall = 7
+    println ("O Messi ja ganhou "+ messiGoldenBall+ "vezes a bola de ouro")
+    println ("o Messi ja ganhou $messiGoldenBall vezes a bola de ouro")
+    //------------------------------------------------------------------
+    /**
+    
+}
