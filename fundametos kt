@@ -35,4 +35,123 @@ fun main() {
     //------------------------------------------------------------------
     /**
     
+
+    
+}
+
+
+
+
+
+fun main() {
+
+     // Operadores relacionais 
+     //
+     // são sinais que ouxiliam em comparações entre valores 
+     // 
+     // =-> para definir valores
+     // == -> comparação de valores
+     // != -> diferença
+     // > -> maior que...
+     // 
+     // 
+     // Operadores Matematicos 
+     // + -> adição
+     // - -> subtração
+     // * -> Multiplicação 
+     // / -> divisão
+     // % -> modulo- o resto de uma divisão
+     // ++ ->adiciona 1 a um valor
+     // - -> subtrai 1 de um valor
+     
+     // Codições
+     // if..else -> se..senão
+     // 
+     // Estrutura do if..else simples
+     // 
+     // if(condicão){
+     // ação a ser execultada 
+     // }
+     /*
+      var classificado = "Real Madri"
+            
+      if (classificado =="Real Madrid"){
+      println ( "Real Madri classificado para a final, Hala Madrid")
+      }else{
+          println ("Barcelona classificado para a final, infelizmente")
+          
+     }
+      */
+       // if..else composto 
+       // 
+       // Estrutura:
+       // if(condição)
+       // ação
+       // } else if(condição){
+       // ação
+       // }else{
+       // ação
+       // }
+       /*
+      
+      var vidas = 5
+      if (vidas >= 5){
+          println ("voce esta excelente !! que vida boa!")
+          
+      }else if (vidas== 4){
+          println ("voce ta muito bem !!pode comer miojo")
+          }else if (vidas ==3){
+          println ("voce ta ok,mas pode melhorar")
+      }else if(vidas==2){
+          println("ce ra morrendo!! se cuida cara ")
+          
+          
+      }else{
+          println ("eitaa, tu foi é arrasta pra cima kkkkkkk")
+       }
+}
+     */
+    // exercicio 1 - faça um programa que verifique dois numeros e indique no console, o maior entre eles
+    // 
+    // exercicio 2- faça um programa que indique no console, se um numero verificado é positivo ou negativo 
+    // 
+    // .no exercicios, devem ser utilizados pelo menos 1 variavel
+    // .os exercicios devem ser feito com if..else
+    // .divirtam-se
+    
+    
+    
+    var classificado = "Arctic Monkeys"
+    if(classificado == "Arctic Monkeys"){
+    println ("Arctic Monkeys é MIL vezes Melhor que qualquer outra banda de Indi Rock ja vista")
+    }else{
+        println ("Foo Fighters infelizmente tem mais Grammys que AM...")
+        
+        
+        
+        
+        
+        var estudo = 3
+        var estudo = 7
+        if(sorvete > dormir){
+           
+      
+      println ("voce esta mal nos $esdudos va estudar")
+    }else if (vidas 4){
+        println ("voce esta melhorando, mas nao vai $dormir")
+    
+   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
 }
