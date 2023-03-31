@@ -1,1 +1,113 @@
 
+fun main() {
+    
+  //val pessoa1 = Pessoa() //criando um obj 
+    //println(pessoa1.altura) //exibe um atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.nome = "José" //alterando o atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27
+    
+ 
+    val convidado1 = Pessoa()
+    println(convidado1.nome)
+    convidado1.nome = "Victtório"
+    println(convidado1.nome)
+    convidado1.altura = 1.89
+    convidado1.nacionalidade = "Italia"
+    convidado1.peso = 85.5
+    convidado1.idade = 26
+    
+    
+    val convidado2 = Pessoa()
+    println(convidado2.nome)
+    convidado2.nome = "Hikari Tanaka"
+    println(convidado2.nome)
+    convidado2.altura = 1.59
+    convidado2.nacionalidade = "Japão"
+    convidado2.peso = 52.5
+    convidado2.idade = 24
+    
+    
+    
+    
+    
+    
+    
+} 
+    
+    
+    class Pessoa (){
+        //criação de atributos para a classe Pessoa
+        //os valores dados aqui, são padrões
+        var nome = ""
+        var idade = 0
+        var altura = 1.90
+        var peso = 30.0
+        var nacionalidade = "Italiano"
+        
+        
+        
+    }     
+        
+        
+        
+        
+        
+        class Bolo(val sabor: String, val tamanho:string, val recheio: string, val cobertura:string, val preco: dougle,val complemento: string, 
+                   val pronto: boolean
+                  ){
+        
+            var bolo1 = Bolo ("Morango", "2m", "chocolate", "amendoim", 120.00, " 1000 morangos", true)
+            print("Meu bolo é de ${bolo1.sabor} e tem ${bolo1.tamanho}, o recheio dele e de ${bolo1.recheio}, a coebertura dele e de ")
+            println("${bolo1.cobertura},ele custa R$${bolo.preco}, em seu complemento tem ${bolo1.complemento}. Se ele ta pronto? ${bolo1.pronto}")
+            /*
+            var pessao2= pessoa()
+            println(pessoa2.altura)
+            
+            */
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
